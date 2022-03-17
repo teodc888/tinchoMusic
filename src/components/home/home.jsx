@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack, Box, Grid, Typography, Button } from "@mui/material";
+import { Stack, Box, Grid, Typography} from "@mui/material";
 import Sexo from "../../tinchoMusic/tinchoSexo.ogg";
 import Nashe from "../../tinchoMusic/tinchoNashe.ogg";
 import Iu from "../../tinchoMusic/tinchoIu.ogg";
@@ -18,7 +18,7 @@ export default function Home() {
         spacing={2}
       >
         <Typography variant="h3" component="div" sx={{ textAlign: "center" }}>
-          TINCHO RISAS
+          TINCHO JIJIJAJA
         </Typography>
         <Box sx={{ width: "100%", marginTop: "1%", margin:"auto" }}>
           <Grid
@@ -26,19 +26,19 @@ export default function Home() {
             spacing={{ xs: 4, md: 3 }}
             columns={{ xs: 4, sm: 8, md: 12 }}
           >
-            <Grid item xs={4} sm={4} md={4} >
+            <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={Sexo} texto="SEXO" />
             </Grid>
-            <Grid item xs={4} sm={4} md={4} >
+            <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={Nashe} texto="NASHE" />
             </Grid>
-            <Grid item xs={4} sm={4} md={4}  >
+            <Grid item xs={4} sm={8} md={12}  >
                 <ButtonTincho musica={Iu} texto="IU" />
             </Grid>
-            <Grid item xs={4} sm={4} md={4} >
+            <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={Cantando} texto="CANTANDO" />
             </Grid>
-            <Grid item xs={4} sm={4} md={4} >
+            <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={Nofackno} texto="No FACK NO" />
             </Grid>
           </Grid>

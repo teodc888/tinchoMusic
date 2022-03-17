@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Box, Card } from "@mui/material";
+import { Button, Box} from "@mui/material";
 
 import { Howl } from "howler";
 
@@ -14,12 +14,24 @@ export default function ButtonTincho({ musica, texto }) {
   };
   return (
     <>
-      <Box >
-        <Card sx={{ margin: "auto", textAlign:"center" }}> 
-          <Button size="small" onClick={() => funcionMusica(musica)}>
-            {texto}
-          </Button>
-        </Card>
+      <Box sx={{ margin: "auto", textAlign: "center" }}>
+        <Button
+          size="small"
+          color="error"
+          onClick={() => funcionMusica(musica)}
+          sx={{
+            borderRadius: "50%",
+            bgcolor: "red",
+            width: "200px",
+            height: "200px",
+            color: "white",
+            border: "solid black",
+            textAlign: "center",
+            fontSize: "1.7rem",
+          }}
+        >
+          {texto}
+        </Button>
       </Box>
     </>
   );

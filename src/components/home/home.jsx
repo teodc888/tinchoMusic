@@ -6,6 +6,8 @@ import Iu from "../../tinchoMusic/tinchoIu.ogg";
 import Cantando from "../../tinchoMusic/tinchoCantando.ogg";
 import Nofackno from "../../tinchoMusic/nofackno.mp4";
 import ButtonTincho from "../button/buttonTincho";
+import Nose from "../../tinchoMusic/nose.ogg";
+import cuanto from "../../tinchoMusic/cuantocuanto.ogg";
 
 export default function Home() {
 
@@ -40,6 +42,12 @@ export default function Home() {
             </Grid>
             <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={Nofackno} texto="No FACK NO" />
+            </Grid>
+            <Grid item xs={4} sm={8} md={12} >
+                <ButtonTincho musica={Nose} texto="?" />
+            </Grid>
+            <Grid item xs={4} sm={8} md={12} >
+                <ButtonTincho musica={cuanto} texto="CUANTO CUANTO CUANTO" />
             </Grid>
           </Grid>
         </Box>

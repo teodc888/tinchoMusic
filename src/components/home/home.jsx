@@ -1,13 +1,16 @@
 import React from "react";
 import { Stack, Box, Grid, Typography} from "@mui/material";
-import Sexo from "../../tinchoMusic/tinchoSexo.ogg";
-import Nashe from "../../tinchoMusic/tinchoNashe.ogg";
-import Iu from "../../tinchoMusic/tinchoIu.ogg";
-import Cantando from "../../tinchoMusic/tinchoCantando.ogg";
+import Sexo from "../../tinchoMusic/tinchoSexo.mp4";
+import Nashe from "../../tinchoMusic/tinchoNashe.mp4";
+import Iu from "../../tinchoMusic/tinchoIu.mp4";
+import Cantando from "../../tinchoMusic/tinchoCantando.mp4";
 import Nofackno from "../../tinchoMusic/nofackno.mp4";
 import ButtonTincho from "../button/buttonTincho";
-import Nose from "../../tinchoMusic/nose.ogg";
-import cuanto from "../../tinchoMusic/cuantocuanto.ogg";
+import Nose from "../../tinchoMusic/nose.mp4";
+import cuanto from "../../tinchoMusic/cuantocuanto.mp4";
+import jajaja from "../../tinchoMusic/jajaja.mp4";
+import cantandopor2 from "../../tinchoMusic/cantandopor2.mp4";
+import muyelectrico from "../../tinchoMusic/muyelectrico.mp4";
 
 export default function Home() {
 
@@ -48,6 +51,15 @@ export default function Home() {
             </Grid>
             <Grid item xs={4} sm={8} md={12} >
                 <ButtonTincho musica={cuanto} texto="CUANTO CUANTO CUANTO" />
+            </Grid>
+            <Grid item xs={4} sm={8} md={12} >
+                <ButtonTincho musica={jajaja} texto="JA JA JA" />
+            </Grid>
+            <Grid item xs={4} sm={8} md={12} >
+                <ButtonTincho musica={cantandopor2} texto="CANTANDO X 2" />
+            </Grid>
+            <Grid item xs={4} sm={8} md={12} >
+                <ButtonTincho musica={muyelectrico} texto="MUY ELECTRICO !!!" />
             </Grid>
           </Grid>
         </Box>

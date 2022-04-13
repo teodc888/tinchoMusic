@@ -10,7 +10,7 @@ export default function Navbar() {
       <AppBar position="static" sx={{bgcolor:"blue"}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ textAlign:"center"}}>
-            TINCHO RISAS
+            RATATORIO 
           </Typography>
         </Toolbar>
       </AppBar>

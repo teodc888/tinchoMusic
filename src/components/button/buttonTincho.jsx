@@ -2,7 +2,7 @@ import React from "react";
 
 //hola
 
-import { Button, Box} from "@mui/material";
+import { Button, Box } from "@mui/material";
 
 import { Howl } from "howler";
 
@@ -14,6 +14,7 @@ export default function ButtonTincho({ musica, texto }) {
     });
     sound.play();
   };
+
   return (
     <>
       <Box sx={{ margin: "auto", textAlign: "center" }}>

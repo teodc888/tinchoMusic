@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 export default function Navbar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{bgcolor:"blue"}}>
+      <AppBar position="static" sx={{bgcolor:"red"}}>
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ textAlign:"center"}}>
             RATATORIO 
